@@ -1,0 +1,134 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+.slide_box .left,.slide_box .right{
+	background: rgba(0,0,0,0);
+}
+.slide_box .left span,.slide_box .right span{
+	display: block;
+	width: 40px;
+	height: 40px;
+	position: relative;
+	top: 50%;
+	transition: all 1s;
+}
+.slide_box .left span{
+	background: url(../img/large_left.png) no-repeat;
+	left: 50%;
+}
+.slide_box .right span{
+	background: url(../img/large_right.png) no-repeat;
+	left: 50%;
+}
+.slide_box ol li{
+	background: #555;
+	border-color: #555;
+	
+}
+.slide_box ol .active{
+	background: #fff;
+	border: 3px solid #777;
+	
+}
+.slide_box ol li:hover{
+	background: #fff;
+	border: 3px solid #777;
+}
+
+
+.wks{
+	background: url(../img/backw.jpg);
+	background-size: 100% 100%;
+}
+.wks>div img{
+	text-align: center;
+	width: 100%;
+}
+@media(min-width: 890px){
+	.qqa{
+		width: 650px;
+	}
+}
+.qqa{
+	text-align: center;
+	font-size: 30px;
+	font-weight: 700;
+	border: 3px solid #fff;
+	color: #fff;
+	background: red;
+	border-radius: 40px;
+	margin-bottom: 50px;
+}
+.qqa:hover{
+	background: deepskyblue;
+}
+.navww{
+	display: none;
+	background: #b7e8ea;
+	height: 60px;
+	font-size: 15px;
+	font-weight: 600;
+	margin-bottom: 0px;
+}
+.navww .navbar-header img{
+	margin: -10px 0px 0px 80px;
+}
+.navww .nav{
+	margin-right: 30px;
+}
+.navww .nav li{
+	margin-right: 10px;
+}
+.navww .nav li a{
+	color: #000;
+	line-height: 30px;
+}
+.navww .nav li a:hover{
+	color: #717777;
+}
+.navww .nav .nav_a a{
+	color: #717777;
+}
+@media(max-width: 890px){
+	.navww{
+		display: none;
+	}
+}
+header{
+	background: #b7e8ea;
+	text-align: center;
+}
+header h1{
+	margin: 0px;
+}
+header h1 img{
+	margin-top: 20px;
+	width: 300px;
+}
+
+header ul li{
+	margin-top: 50px;
+	margin-left: 3%;
+}
+header ul li a{
+	text-decoration: none;
+	color: #000;
+	line-height: 30px;
+	font-weight: 600;
+}
+header ul li a:hover{
+	text-decoration: none;
+	color: #717777;
+}
+header ul .container_a a{
+	color: #717777;
+}
+.xxxz{
+	height: 80px;
+	line-height: 80px;
+	text-align: center;
+	background: #3F3F3F;
+	color: #fff;
+}

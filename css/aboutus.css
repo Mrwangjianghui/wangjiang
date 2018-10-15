@@ -1,0 +1,105 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+.xsxz{
+	background: url(../img/aboutus_back.jpg);
+	background-size: 100% 100%;
+}
+@media(min-width: 750px){
+	.wscd{
+		width: 700px;
+	}
+}
+.wscd{
+	padding-left: 50px;
+	padding-right: 50px;
+	margin-top: 100px;
+	margin-bottom: 300px;
+	background: #B9D6D7;
+	border-radius: 20px;
+}
+.wscd p{
+	line-height: 25px;
+}
+.wscd .h2{
+	text-align: center;
+	line-height: 50px;
+	font-weight: 400;
+}
+.sxzz{
+	margin-bottom: 40px;
+}
+.a{
+	font-size: 15px;
+	text-indent: 2em;
+}
+.navww{
+	display: none;
+	background: #b7e8ea;
+	height: 60px;
+	font-size: 15px;
+	font-weight: 600;
+	margin-bottom: 0px;
+}
+.navww .navbar-header img{
+	margin: -10px 0px 0px 80px;
+}
+.navww .nav{
+	margin-right: 30px;
+}
+.navww .nav li{
+	margin-right: 10px;
+}
+.navww .nav li a{
+	color: #000;
+	line-height: 30px;
+}
+.navww .nav li a:hover{
+	color: #717777;
+}
+.navww .nav .nav_a a{
+	color: #717777;
+}
+@media(max-width: 890px){
+	.navww{
+		display: none;
+	}
+}
+header{
+	background: #b7e8ea;
+	text-align: center;
+}
+header h1{
+	margin: 0px;
+}
+header h1 img{
+	margin-top: 20px;
+	width: 300px;
+}
+
+header ul li{
+	margin-top: 50px;
+	margin-left: 3%;
+}
+header ul li a{
+	text-decoration: none;
+	color: #000;
+	line-height: 30px;
+	font-weight: 600;
+}
+header ul li a:hover{
+	text-decoration: none;
+	color: #717777;
+}
+header ul .container_a a{
+	color: #717777;
+}
+.xxxz{
+	height: 80px;
+	line-height: 80px;
+	text-align: center;
+	background: #3F3F3F;
+	color: #fff;
+}
